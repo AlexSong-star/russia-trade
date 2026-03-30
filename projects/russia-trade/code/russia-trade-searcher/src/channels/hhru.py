@@ -3,6 +3,7 @@ HH.ru 搜索器 - 通过职位搜索找公司
 核心方法：通过产品相关职位搜索公司，比按公司名搜索高效 10 倍
 例如：搜"Валки прокатные"职位 → 找到所有轧辊相关工厂
 """
+import asyncio
 import logging
 import re
 import time
