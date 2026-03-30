@@ -11,6 +11,7 @@ from .models import CompanyInfo
 from .channels.b2b_center import B2BCenterSearcher
 from .channels.metaprom import MetapromSearcher
 from .channels.yandex import YandexSearcher
+from .channels.metallurgy_russia import MetallurgyRussiaSearcher
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -36,6 +37,7 @@ class RussiaTradeSearcher:
         self.b2b = B2BCenterSearcher()
         self.metaprom = MetapromSearcher()
         self.yandex = YandexSearcher()
+        self.metallurgy = MetallurgyRussiaSearcher()
 
     async def search_channel(self, channel: str, keywords: List[str]) -> List[CompanyInfo]:
         """
@@ -57,6 +59,8 @@ class RussiaTradeSearcher:
                 return await self.metaprom.search(keywords)
             elif channel == "yandex":
                 return await self.yandex.search(keywords)
+            elif channel == "metallurgy":
+                return await self.metallurgy.search(keywords)
             else:
                 logger.warning(f"未知渠道: {channel}")
                 return []
@@ -79,7 +83,7 @@ class RussiaTradeSearcher:
         if keywords is None:
             keywords = self.PRODUCT_KEYWORDS
         if channels is None:
-            channels = ["b2b_center", "metaprom", "yandex"]
+            channels = ["b2b_center", "metaprom", "yandex", "metallurgy"]
 
         logger.info(f"开始全面搜索，渠道: {channels}, 关键词: {keywords}")
 
@@ -127,6 +131,10 @@ class RussiaTradeSearcher:
         if keywords is None:
             keywords = self.PRODUCT_KEYWORDS
         return asyncio.run(self.yandex.search(keywords))
+
+    def search_metallurgy(self, keywords: Optional[List[str]] = None) -> List[CompanyInfo]:
+        """同步接口：只搜索 Metallurgy Russia 展会（约280家展商）"""
+        return asyncio.run(self.metallurgy.search(keywords))
 
 
 if __name__ == "__main__":

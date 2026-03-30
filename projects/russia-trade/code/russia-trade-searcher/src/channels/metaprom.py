@@ -16,7 +16,7 @@ try:
 except ImportError:
     PLAYWRIGHT_AVAILABLE = False
 
-from models import CompanyInfo
+from ..models import CompanyInfo
 
 logger = logging.getLogger(__name__)
 
