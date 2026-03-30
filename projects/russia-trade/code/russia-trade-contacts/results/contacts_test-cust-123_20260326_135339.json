@@ -1,0 +1,41 @@
+{
+  "customer_id": "test-cust-123",
+  "timestamp": "2026-03-26T13:53:39.002804",
+  "target_bitable": {
+    "app_token": "",
+    "table_id": ""
+  },
+  "contacts": [
+    {
+      "name": null,
+      "email": "ivan.severstal@severstal.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    },
+    {
+      "name": null,
+      "email": "ivanseverstal@severstal.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    },
+    {
+      "name": null,
+      "email": "iseverstal@severstal.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    }
+  ],
+  "note": "Bitable写入失败时的本地备份，请手动导入飞书表格"
+}

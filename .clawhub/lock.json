@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "skills": {
+    "openclaw-skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1773375008890
+    },
+    "xiucheng-self-improving-agent": {
+      "version": "1.0.0",
+      "installedAt": 1773375732115
+    },
+    "liang-tavily-search": {
+      "version": "1.0.1",
+      "installedAt": 1773379390895
+    },
+    "summarize-pro": {
+      "version": "1.0.0",
+      "installedAt": 1773380117259
+    },
+    "using-superpowers": {
+      "version": "0.1.0",
+      "installedAt": 1773383957495
+    },
+    "react": {
+      "version": "1.0.4",
+      "installedAt": 1773384785685
+    },
+    "frontend-design-ultimate": {
+      "version": "1.0.0",
+      "installedAt": 1773385690571
+    },
+    "vercel": {
+      "version": "1.0.1",
+      "installedAt": 1773385925850
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1773386711437
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773386885162
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1773388627754
+    },
+    "agent-memory": {
+      "version": "1.0.0",
+      "installedAt": 1773389297229
+    },
+    "agent-autopilot": {
+      "version": "1.4.1",
+      "installedAt": 1773390661959
+    },
+    "diagram-generator": {
+      "version": "1.1.1",
+      "installedAt": 1773390736872
+    },
+    "airpoint": {
+      "version": "1.3.16",
+      "installedAt": 1773391140511
+    },
+    "evolver": {
+      "version": "1.29.5",
+      "installedAt": 1773391215234
+    },
+    "adaptive-reasoning": {
+      "version": "1.0.0",
+      "installedAt": 1773392040471
+    },
+    "coding": {
+      "version": "1.0.3",
+      "installedAt": 1773392103024
+    }
+  }
+}

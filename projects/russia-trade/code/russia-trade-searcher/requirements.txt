@@ -1,0 +1,22 @@
+# russia-trade-searcher requirements
+# 俄罗斯客户搜索工具依赖
+
+# 浏览器自动化（核心）
+playwright>=1.40.0
+
+# 网页解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# HTTP 请求（备用）
+requests>=2.31.0
+
+# 翻译（可选，用于翻译摘要）
+deep-translator>=1.11.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 异步支持
+aiohttp>=3.9.0
+asyncio-throttle>=1.0.0

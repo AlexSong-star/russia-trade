@@ -1,0 +1,40 @@
+{
+  "test_name": "email_guess_two_part",
+  "timestamp": "2026-03-26T13:44:35.762684",
+  "results": [
+    {
+      "name": null,
+      "email": "metallurgicheskaya.obedinennaya@omk.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    },
+    {
+      "name": null,
+      "email": "metallurgicheskayaobedinennaya@omk.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    },
+    {
+      "name": null,
+      "email": "mobedinennaya@omk.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    }
+  ],
+  "extra": {
+    "company": "ОМК",
+    "domain": "omk.ru"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "test_name": "real_website_tmk",
+  "timestamp": "2026-03-26T13:45:09.304015",
+  "results": [
+    {
+      "name": "Tmk",
+      "email": "tmk@tmk-group.com",
+      "title": null,
+      "title_cn": null,
+      "department": null,
+      "phone": "(495) 775 7600",
+      "source": "website",
+      "source_url": null,
+      "confidence": 0.4,
+      "is_procurement": false
+    },
+    {
+      "name": "8072",
+      "email": "8072@tmk-group.com",
+      "title": null,
+      "title_cn": null,
+      "department": null,
+      "phone": "800-700-8072",
+      "source": "website",
+      "source_url": null,
+      "confidence": 0.4,
+      "is_procurement": false
+    }
+  ],
+  "extra": {
+    "company": "ТМК",
+    "website": "https://tmk-group.ru"
+  }
+}

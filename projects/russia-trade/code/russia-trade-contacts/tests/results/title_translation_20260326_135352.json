@@ -1,0 +1,30 @@
+{
+  "test_name": "title_translation",
+  "timestamp": "2026-03-26T13:53:52.125733",
+  "results": [
+    {
+      "original": "Начальник отдела закупок",
+      "translated": "采购部长"
+    },
+    {
+      "original": "Менеджер по закупкам",
+      "translated": "采购经理"
+    },
+    {
+      "original": "Директор по закупкам",
+      "translated": "采购总监"
+    },
+    {
+      "original": "Генеральный директор",
+      "translated": "总监"
+    },
+    {
+      "original": "Коммерческий директор",
+      "translated": "总监"
+    },
+    {
+      "original": "Ведущий специалист по закупкам",
+      "translated": "采购专员"
+    }
+  ]
+}

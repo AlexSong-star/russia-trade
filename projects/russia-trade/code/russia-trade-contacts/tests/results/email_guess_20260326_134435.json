@@ -1,0 +1,40 @@
+{
+  "test_name": "email_guess",
+  "timestamp": "2026-03-26T13:44:35.762129",
+  "results": [
+    {
+      "name": null,
+      "email": "ivan.severstal@severstal.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    },
+    {
+      "name": null,
+      "email": "ivanseverstal@severstal.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    },
+    {
+      "name": null,
+      "email": "iseverstal@severstal.ru",
+      "title": null,
+      "title_cn": null,
+      "source": "pattern",
+      "source_url": null,
+      "confidence": 0.3,
+      "notes": "Email格式猜测，需人工确认"
+    }
+  ],
+  "extra": {
+    "company": "Северсталь",
+    "domain": "severstal.ru"
+  }
+}

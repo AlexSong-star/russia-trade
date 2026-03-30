@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Word + 图片上传</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-size: 48px;
+      font-family: Arial, sans-serif;
+    }
+    input[type="file"] {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    #preview {
+      margin-top: 20px;
+      max-width: 400px;
+      max-height: 400px;
+    }
+  </style>
+</head>
+<body>
+  word
+
+  <input type="file" id="upload" accept="image/*" capture="environment">
+  <img id="preview" style="display:none;">
+
+  <script>
+    document.getElementById('upload').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const img = document.getElementById('preview');
+          img.src = e.target.result;
+          img.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+  </script>
+</body>
+</html>
